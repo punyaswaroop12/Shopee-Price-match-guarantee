@@ -423,5 +423,5 @@ test['matches'] = test['matches'].map(lambda x : ' '.join(np.array(x)[0:KNN]))
 test[['posting_id','matches']].to_csv('submission.csv',index=False)
 sub = pd.read_csv('submission.csv')
 sub.head()
-
  
+# https://www.kaggle.com/code/a2015003713/shopee-nfnetf0-dsitilbert-soft-voting
